@@ -28,6 +28,9 @@ The smart cane uses two **Arduino Uno** boards:
 - **Arduino Uno 1**: Responsible for the GSM, GPS, and vibration sensors. In the event of an accident, the vibration sensor triggers the GSM module to alert the emergency contact with a phone call and SMS, including the user's GPS location.
 - **Arduino Uno 2**: Manages the ultrasonic and water sensors, providing immediate feedback to the user about obstacles and water hazards on the road.
 
+## Circuit Diagram
+<img src="https://raw.githubusercontent.com/sangu-firedev/Smart-Cane/refs/heads/main/smart%20cane.jpg" alt="Smart Cane" width="500" />
+
 ## How It Works
 1. **Obstacle Detection**: The ultrasonic sensor continuously scans for obstacles in the user's path. When an obstacle is detected, the buzzer alerts the user.
 2. **Water Detection**: The water sensor detects the presence of water on the ground and triggers the buzzer to warn the user.
